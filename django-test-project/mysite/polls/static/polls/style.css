@@ -1,0 +1,90 @@
+::selection {
+background-color:rgba(143,180,215,0.2);
+color: #333;
+}
+
+body{
+    font-family:'PT Sans',Arial,Helvetica,sans-serif;
+    font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    color: #333333
+    background-color:#ffffff;
+}
+
+a:link, a:active, a:visited {text-decoration:none; color: rgba(143,180,215,1);}
+pre, p, blockquote,body,big,small,sub,sup{font-size:13px;}
+body,p,pre,em{font-family:'PT Serif',Georgia,serif;}
+nav,.p,h1,h2,.src,.tn,.lines b,.c,.load,.pag,.pn,.ask{
+    font-family:'PT Sans',Arial,Helvetica,sans-serif;
+}
+
+a, a:hover {
+    text-decoration:none;
+    border: none;
+}
+
+a {
+  transition:0.3s ease-in-out;
+}
+a:hover {
+
+color: rgba(143,180,215,0.5);
+
+}
+
+input[type=submit] {
+margin-top:10px;
+margin-bottom:-7px;
+transition:0.3s ease-in-out;
+}
+input[type=submit]:hover {
+color: rgba(143,180,215,1);
+}
+
+
+h1 {
+    margin:15px;
+    font-size:17px;
+    line-height:100%;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-style:italic;
+    text-align:center;
+}
+
+h2 {margin:10px;font-size:15px;}
+h3,h4,h5 {margin:10px;font-size:14px;letter-spacing:0.5px;}
+
+
+.wrapper{
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:40px;
+    padding-right:40px;
+
+}  
+
+.container{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:70px;
+    margin-top:30px;
+    display: flex;
+} 
+
+.article {
+    display: inline-block;
+    max-width:30%;
+    margin:70px auto;
+    padding:10px;
+    text-align:left;
+    background:#ffffff;
+    border: 1px solid #ccc;
+    transition:0.3s ease-in-out;
+}
+
+.article:hover{
+border-color: rgba(143,180,215,0.9);
+}
