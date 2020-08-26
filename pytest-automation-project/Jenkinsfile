@@ -1,0 +1,20 @@
+pipeline {
+    agent none
+    stages {
+
+stage ('Tests'){
+   agent { dockerfile true }
+    steps{
+        sh  '''pytest --suppress-tests-failed-exit-code --html=report.html
+		'''
+    }
+   }   
+
+stage ('Report'){
+   agent any
+    steps{
+        sh 'open report.html'
+    }
+    }
+}
+}
