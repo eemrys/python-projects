@@ -1,2 +1,2 @@
-# python-projects
+# python_projects
 Django, Pytest, ML
